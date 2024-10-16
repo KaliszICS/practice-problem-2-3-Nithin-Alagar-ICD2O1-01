@@ -16,7 +16,12 @@ def q1():
 
 def q2(): 
   #Write Assignment code here
-
+  num = input("Input an integer: ")
+  if num > 0:
+    print(f"{num} is positive")
+  elif num < 0:
+    print(f"{num} is negative")
+  else:
 
 #Do not alter the following code
 #Comment out the following code when running your tests
