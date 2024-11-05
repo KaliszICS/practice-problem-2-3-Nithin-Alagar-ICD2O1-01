@@ -10,7 +10,7 @@ def q1():
   elif word[-1:] == "y":
     print("-ies")
   else:
-    print("s")
+    print("-s")
   
 
 def q2(): 
