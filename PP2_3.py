@@ -15,11 +15,11 @@ def q1():
 
 def q2(): 
   #Write Assignment code here
-  num = float(input("Input an integer: "))
+  num = int(input("In: "))
   if num > 0:
-    print(f"{int(num)} is positive")
+    print(f"{num} is positive")
   elif num < 0:
-    print(f"{int(num)} is negative")
+    print(f"{num} is negative")
 
 
 def q3():
