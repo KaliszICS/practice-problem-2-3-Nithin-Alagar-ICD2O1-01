@@ -17,9 +17,10 @@ def q2():
   #Write Assignment code here
   num = float(input("Input an integer: "))
   if num > 0:
-    print(f"{num} is positive")
+    print(f"{int(num)} is positive")
   elif num < 0:
-    print(f"{num} is negative")
+    print(f"{int(num)} is negative")
+
 
 def q3():
     side1 = float(input("Input a number: "))
