@@ -3,14 +3,14 @@
 def q1(): 
   #Write Assignment code here
   word = input("input word: ")
-  if word[-1:] == "ife":
+  if word[-3:] == "ife":
     print("-ives")
   elif word[-2:] == "ey":
     print("-eys")
-  elif word[-3:] == "y":
+  elif word[-1:] == "y":
     print("-ies")
   else:
-    print("s")
+    print("-s")
   
 
 def q2(): 
