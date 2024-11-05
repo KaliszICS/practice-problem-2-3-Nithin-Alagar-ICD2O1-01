@@ -10,12 +10,12 @@ def q1():
   elif word[-1:] == "y":
     print("-ies")
   else:
-    print("-s")
+    print("s")
   
 
 def q2(): 
   #Write Assignment code here
-  num = input("Input an integer: ")
+  num = float(input("Input an integer: "))
   if num > 0:
     print(f"{num} is positive")
   elif num < 0:
