@@ -13,7 +13,6 @@ def q1():
     print("s")
   
 
-
 def q2(): 
   #Write Assignment code here
   num = input("Input an integer: ")
